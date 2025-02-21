@@ -1,0 +1,7 @@
+p {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: contents;
+    color: rgb(199, 23, 23);
+}
+

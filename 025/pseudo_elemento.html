@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo Elemento</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        /*-----------------------------------------*/
+
+        h1 {
+            margin: 50px;
+        }
+
+        h1::first-line {
+            color: red;
+
+        }
+
+        h1::first-letter {
+            color: yellow;
+            font-size: 60px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dignissimos molestias, tenetur impedit libero laboriosam eligendi suscipit minus atque iste. Numquam suscipit ab libero ex eaque sapiente explicabo, quod fugit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero voluptas quaerat corporis nesciunt accusantium! Nesciunt iste omnis excepturi expedita odit iure temporibus quam explicabo, accusantium reiciendis alias culpa aut eos.</h1>
+</body>
+
+</html>
